@@ -1,21 +1,102 @@
-body {
+/* :host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url('../../../assets/images/home_page_bg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background: '../../../assests/images/aaa.jpg';
-  background-image: url('https://plus.unsplash.com/premium_photo-1700353612873-6564c7bd5f6b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+} */
+.HomeDiv {
+  background-image: url("../../../assets/images/home_page_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-.mainDiv{
-/* background: #FFB000; */
-display:  flex;
-flex-direction: column;
-width: 30%;
-height: 100px;
-/* background-image: '../../../assets/MacBook Pro 14_ - 18.jpg'; */
-justify-content: center;
-align-items: center;
+.a {
+  display: flex;
+  justify-content: space-between;
+}
+.expolreDiv {
+  background-image: url("../../../assets/images/explore_page_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.mainDiv h2{
-    color: black;
+#logo {
+  margin: 0px;
+  position: relative;
+  left: 83px;
+  top: 39px;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.right {
+  margin: 47px;
+}
+
+.custom-btn {
+  background-color: #ffb000;
+  color: #fff;
+  font-size: x-large;
+}
+.custom-btn2{
+  background-color: #ffb000;
+  color: #fff;
+  font-size: x-large;
+  padding: 12px 39px;
+  margin: 0px 63px 0px 0px
+}
+.custom-btn3{
+  color: #fff;
+  font-size: x-large;
+  padding: 12px 51px;
+  margin: 0px 63px 0px 0px;
+}
+.cp {
+  color: #ffb000;
+  border-bottom: 4px solid white;
+  padding: 6px 9px 6px 0px;
+}
+.navEl {
+  /* border-bottom: 4px solid #FFB000; */
+  /* padding: 6px 9px 6px 0px; */
+}
+.midContainer {
+  margin: 67px;
+}
+.list-inline-item {
+  display: inline-block;
+  margin: 0px 41px;
+}
+.line {
+  margin: -3px 0px 0px 63px;
+  color: #ffb000;
+  border: 0;
+  border-top: var(--bs-border-width) solid;
+  opacity: 5.25;
+}
+.center {
+  color: #fff;
+  font-style: normal;
+  margin: 74px 228px;
+}
+.centerhead{
+  word-spacing: 10px;
+  line-height: normal;
+  font-weight: 600;
+  font-size: 80px;
+}
+.c-Txt{
+  margin-top: 25px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 137.523%;
 }
