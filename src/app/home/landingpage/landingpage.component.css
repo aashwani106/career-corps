@@ -46,14 +46,14 @@
   color: #fff;
   font-size: x-large;
 }
-.custom-btn2{
+.custom-btn2 {
   background-color: #ffb000;
   color: #fff;
   font-size: x-large;
   padding: 12px 39px;
-  margin: 0px 63px 0px 0px
+  margin: 0px 63px 0px 0px;
 }
-.custom-btn3{
+.custom-btn3 {
   color: #fff;
   font-size: x-large;
   padding: 12px 51px;
@@ -87,16 +87,61 @@
   font-style: normal;
   margin: 74px 228px;
 }
-.centerhead{
+.centerhead {
   word-spacing: 10px;
   line-height: normal;
   font-weight: 600;
   font-size: 80px;
 }
-.c-Txt{
+.c-Txt {
   margin-top: 25px;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 137.523%;
+}
+
+.smCard1 {
+  display: flex;
+  background: #fff;
+  width: 8%;
+  margin: 28px 236px;
+  padding: 12px;
+  border-radius: 7%;
+}
+
+.smCard3 {
+  display: flex;
+  background: linear-gradient(
+      154deg,
+      rgba(121, 117, 131, 0.2) 5.35%,
+      rgba(54, 53, 103, 0.2) 83.85%
+    ),
+    rgba(49, 48, 54, 0.3);
+  backdrop-filter: blur(1.5166666507720947px);
+  /* width: 8%; */
+  margin: 28px 0px;
+  padding: 12px 38px;
+  border-radius: 7%;
+  color: #fff;
+}
+.text {
+  margin-left: 19px;
+}
+.sponsers {
+  display: flex;
+  justify-content: space-between;
+  /* margin : 47px 237px */
+  margin : 110px 0px 47px 237px
+
+}
+.sponserText {
+  color: white;
+  /* margin: 65px 239px; */
+  padding: 11px 30px;
+  border-radius: 9px;
+}
+#spns {
+  background-color: #ffb000;
+  color: black;
 }
