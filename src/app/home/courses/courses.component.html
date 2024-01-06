@@ -1,7 +1,57 @@
-<div class="HomeDiv">
-    
-  <div class="yellow-strap"></div>
+<div class="HomeDiv1">
+  <div class="texts">
+    <div class="t">
+      <h2>Browse Video Tutorials Created Only For You</h2>
+    </div>
+    <div class="p">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </div>
+  </div>
+  <!-- <div class="yellow-strap"></div> -->
 </div>
 
+<div class="search">
+  <div class="search-bar-container">
+    <input type="text" class="search-bar" placeholder="Search..." />
+    <button class="search-button">Search</button>
+  </div>
+</div>
+
+<div class="courses">
+  <div class="row">
+    <div class="col-md-9">
+      <div class="row" >
+        
+        <div  class="btn course col-md-4" *ngFor="let item of list" (click)="clicked(item.id)">
+          <div class="courseImg">
+            <img
+              style="width: 300px; height: 270px"
+              src="../../../assets/images/web.png"
+              alt=""
+            />
+          </div>
+          <div class="c-footer">
+            <div class="cName">{{item.courseName  }}</div>
+            <div class="cCat">{{item.courseCat}}</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <h2>Categories</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Category 1</li>
+        <li class="list-group-item">Category 2</li>
+        <li class="list-group-item">Category 3</li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
 
  

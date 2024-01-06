@@ -1,4 +1,4 @@
-.HomeDiv {
+/* .HomeDiv {
     background-image: url("../../../assets/images/course logo/Vector 33.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -15,4 +15,57 @@
     margin: 0;
     position: relative;
     top: 409px;
+  } */
+  .HomeDiv1{
+    background-image: url("../../../assets/images/course-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
   }
+  .texts{
+    width: 51%;
+    color: #FFF;
+    /* background: antiquewhite; */
+    margin: 0%;
+    padding: 8%
+  }
+
+  .search-bar-container {
+    width: 100%;
+    background-color: #333;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .search-bar {
+    width: 70%;
+    max-width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+  .search-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+.c-footer{
+  background: linear-gradient(90deg, #FF9103 3.96%, #FF9403 50.48%, #FFBB05 100%);
+}
+.courses{
+  /* border: 2px solid red; */
+  padding: 9px 9px;
+  margin-top: 10px;
+}
+.course{
+  border-radius: 8px;
+  padding: 0px 30px;
+  margin: 4px 0px;
+}
