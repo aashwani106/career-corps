@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingpageComponent } from './home/landingpage/landingpage.component';
+import { LoginPageComponent } from './home/login-page/login-page.component';
+import { CoursesComponent } from './home/courses/courses.component';
+import { CourseDetailsComponent } from './home/course-details/course-details.component';
 
 const routes: Routes = [
   { 
@@ -8,9 +11,21 @@ const routes: Routes = [
     component : LandingpageComponent
   },
   { 
-    path : 'a',
+    path : 'home',
     component : LandingpageComponent
   },
+  {
+    
+      path : 'login',
+      component : LoginPageComponent
+    
+  },
+  {
+    path : 'courses',
+    component : CoursesComponent
+  },
+  { path: 'courseDetails/:id', component: CourseDetailsComponent },
+
 
 ];
 

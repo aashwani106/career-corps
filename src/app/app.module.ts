@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HomeModule } from './home/home.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { MdbModalModule } from 'mdb-angular-ui-kit/modal';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -11,7 +14,10 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    FormsModule,
+    MdbModalModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
