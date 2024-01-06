@@ -25,7 +25,7 @@
 .expolreDiv {
   margin: 0;
   /* padding: 1%; */
-  background-image: url("../../../assets/images/explore_page_bg.png");
+  background-image: url("../../../assets/images/expl.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100vh;
@@ -33,21 +33,35 @@
 .courseDiv {
   margin: 0;
   /* padding: 1%; */
-  background-image: url("../../../assets/images/bestseller_bg.png");
+  background-image: url("../../../assets/images/exp2.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   /* height: 100vh; */
   padding: 7%;
 }
 .whyDiv {
-  background-image: url("../../../assets/images/why_cc_bg.png");
+  background-image: url("../../../assets/images/3.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100vh;
   margin: 0;
 }
-.mentorDiv{
-  background-image: url("../../../assets/images/mentor_bg.png");
+.mentorDiv {
+  background-image: url("../../../assets/images/4.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+.footDiv {
+  background-image: url("../../../assets/images/5.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+.footDiv2 {
+  background-image: url("../../../assets/images/6.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100vh;
@@ -60,28 +74,27 @@
   top: 32px;
   font-size: 26px;
   font-weight: 700;
-
 }
 
 .right {
-  margin: 47px;
+  margin: 37px 37px 0px 0px;
 }
 
 .custom-btn {
   background-color: #ffb000;
   color: #fff;
-  font-size: x-large;
+  /* font-size: x-large; */
 }
 .custom-btn2 {
   background-color: #ffb000;
   color: #fff;
-  font-size: x-large;
+  /* font-size: x-large; */
   padding: 12px 39px;
   margin: 0px 63px 0px 0px;
 }
 .custom-btn3 {
   color: #fff;
-  font-size: x-large;
+  /* font-size: x-large; */
   padding: 12px 51px;
   margin: 0px 63px 0px 0px;
 }
@@ -91,11 +104,11 @@
   padding: 6px 9px 6px 0px;
 }
 .navEl {
-    /* border-bottom: 4px solid #FFB000;   */
-    /* padding: 6px 9px 6px 0px;   */
+  /* border-bottom: 4px solid #FFB000;   */
+  /* padding: 6px 9px 6px 0px;   */
 }
 .midContainer {
-  margin: 36px 0px 1px 108px;
+  margin: 36px 0px 1px 37px;
 }
 .list-inline-item {
   display: inline-block;
@@ -111,17 +124,18 @@
 .center {
   color: #fff;
   font-style: normal;
-  margin: 74px 228px;
+  margin: 90px 228px 1px;
+  padding: 10px 0px;
 }
 .centerhead {
   word-spacing: 10px;
   line-height: normal;
   font-weight: 600;
-  font-size: 80px;
+  font-size: 48px;
 }
 .c-Txt {
   margin-top: 25px;
-  font-size: 20px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 137.523%;
@@ -130,7 +144,7 @@
 .smCard1 {
   display: flex;
   background: #fff;
-  width: 8%;
+  width: 14%;
   margin: 28px 236px;
   padding: 12px;
   border-radius: 7%;
@@ -158,7 +172,7 @@
   display: flex;
   justify-content: space-between;
   /* margin : 47px 237px */
-  margin: 110px 0px 47px 237px;
+  margin: 120px 0px 47px 237px;
 }
 .sponserText {
   color: white;
@@ -172,11 +186,11 @@
 }
 
 .exploretxt {
-  padding: 5% 0 0 27%;
+  padding: 3% 0 0 22%;
 }
 .ex {
   color: #fff;
-  font-size: 130.667px;
+  font-size: 92.667px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -192,6 +206,7 @@
 .programsCards {
   justify-content: space-around;
   /* margin: 90px 0 0 10px; */
+  margin: 30px 0px 0px 0px;
   align-items: center;
   height: 75%;
 }
@@ -277,7 +292,7 @@
 .why {
   color: #ffb000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-size: 75px;
+  font-size: 65px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -286,13 +301,13 @@
   color: #fff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   /* font-family: Poppins; */
-  font-size: 70px;
+  font-size: 65px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 .whytext {
-  padding: 9% 30%;
+  padding: 7% 28%;
 }
 .mentoringCard {
   /* width: 368px;  */
@@ -307,7 +322,7 @@
 .emptyCard {
   border: 16px solid #ffb000;
   width: 168px;
-  height: 441px;
+  height: 427px;
   color: #fff;
 }
 .mentorSubCard {
@@ -335,6 +350,34 @@
   font-weight: 400;
   line-height: 124%; /* 24.8px */
 }
-.mCards{
-  justify-content: space-around;
+.mCards {
+  justify-content: center;
+  margin-left: 74px;
+}
+
+.dp {
+  text-align: center;
+}
+
+.testimonalsC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 49px 34px;
+}
+.testi-card{
+  border-radius: 15px;
+  margin: 100px 54px;
+  border: 2px solid #ffbb00;
+  padding: 25px;
+  
+}
+.t-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.t-body{
+  margin: 10px 0px;
 }
