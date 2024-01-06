@@ -57,9 +57,10 @@
   margin: 0px;
   position: relative;
   left: 83px;
-  top: 39px;
-  font-size: 44px;
+  top: 32px;
+  font-size: 26px;
   font-weight: 700;
+
 }
 
 .right {
@@ -90,15 +91,15 @@
   padding: 6px 9px 6px 0px;
 }
 .navEl {
-  /* border-bottom: 4px solid #FFB000; */
-  /* padding: 6px 9px 6px 0px; */
+    /* border-bottom: 4px solid #FFB000;   */
+    /* padding: 6px 9px 6px 0px;   */
 }
 .midContainer {
-  margin: 67px;
+  margin: 36px 0px 1px 108px;
 }
 .list-inline-item {
   display: inline-block;
-  margin: 0px 41px;
+  margin: 0px 20px;
 }
 .line {
   margin: -3px 0px 0px 63px;

@@ -1,0 +1,18 @@
+.HomeDiv {
+    background-image: url("../../../assets/images/course logo/Vector 33.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+  }
+
+
+  .yellow-strap{
+    background-image: url("../../../assets/images/course logo/Vector 34.png");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    top: 409px;
+  }
