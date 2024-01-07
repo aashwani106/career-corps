@@ -11,7 +11,7 @@ import { LoginPageComponent } from '../login-page/login-page.component';
   styleUrls: ['./landingpage.component.css']
 })
 export class LandingpageComponent {
-  constructor(private router: Router, private mdbModalService: MdbModalService) { }
+  constructor(public router: Router, private mdbModalService: MdbModalService) { }
 
   modalRef: MdbModalRef<LoginPageComponent> | null = null;
 

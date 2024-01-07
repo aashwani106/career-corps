@@ -7,6 +7,8 @@ import { MdbModalModule } from 'mdb-angular-ui-kit/modal';
 import { FormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CourseDetailsComponent } from './course-details/course-details.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 
@@ -16,7 +18,9 @@ import { CourseDetailsComponent } from './course-details/course-details.componen
     LandingpageComponent,
     LoginPageComponent,
     CoursesComponent,
-    CourseDetailsComponent
+    CourseDetailsComponent,
+    AboutUsComponent,
+    ContactUsComponent
   ],
   imports: [
     CommonModule,
