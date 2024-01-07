@@ -14,9 +14,9 @@
     <div class="midContainer text-white">
       <ul class="list-inline">
         <li class="list-inline-item cp">Career Programs</li>
-        <li class="list-inline-item navEl">About us</li>
-        <li class="list-inline-item navEl">Why us</li>
-        <li class="list-inline-item navEl">Contact us</li>
+        <li class="list-inline-item navEl" (click)="this.router.navigate(['/aboutUs'])">About us</li>
+        <li class="list-inline-item navEl"><a class="btn text-white" (click)="this.router.navigate(['/courses'])">Courses</a></li>
+        <li class="list-inline-item navEl" (click)="this.router.navigate(['/contactUs'])">Contact us</li>
         <li class="list-inline-item navEl">Dashboard</li>
 
         <hr class="line" />
@@ -47,13 +47,15 @@
       </div>
     </div>
 
-    <div class="buttons" style="margin: 118px 232px">
-      <button type="button" class="btn custom-btn2 rounded-pill">
+    <div class="buttons" style="margin: 32px 233px 5px 229px">
+      <button type="button" class="btn custom-btn2 rounded-pill"
+      (click)="register()">
         Get Started
       </button>
       <button
         type="button"
         class="btn custom-btn3 btn-outline-warning rounded-pill"
+        (click)="this.router.navigate(['/courses'])"
       >
         Explore More
       </button>
@@ -72,7 +74,7 @@
           <span> learners </span>
         </div>
       </div>
-      <div class="smCard1" style="margin-left: 0px">
+      <div class="smCard1" style="margin-left: 0px; margin-right: 130px">
         <div class="smImg">
           <img id src="../../../assets/images/Group 35704.svg" alt="" />
         </div>
@@ -233,7 +235,6 @@
     <div class="why">WHY <span id="qm">?</span></div>
     <div class="whyCc">Career Corps</div>
   </div>
-  
 
   <div class="mCards d-flex">
     <div class="mentoringCard">
@@ -252,10 +253,11 @@
       <div class="mentorSubCard">
         <div class="mentorHead">Mentoring</div>
         <div class="mentorTxt">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum is simply dummy text of the printing
+          and typesetting industry. Lorem Ipsum is simply dummy text of the
+          printing and typesetting industry.
         </div>
       </div>
     </div>
@@ -271,9 +273,87 @@
       </div>
     </div>
   </div>
-  
 </div>
 
 <div class="mentorDiv">
-  
+  <div class="dp">
+    <h2 style="position: relative; top: 580px; left: 20px">
+      Growing Network of 80+ Mentors
+    </h2>
+    <img
+      src="../../../assets/images/dp.jpeg"
+      style="
+        border-radius: 50%;
+        width: 262px;
+        height: 260px;
+        position: relative;
+        top: 580px;
+        left: 20px;
+        padding: 25px;
+        background: #ffb000;
+      "
+    />
+    <h2 style="position: relative; top: 580px; left: 20px">Shah Rukh Khan</h2>
+  </div>
 </div>
+<div class="footDiv">
+  <h2 style="position: relative; top: 270px; text-align: center">
+    Growing Network of 80+ Mentors
+  </h2>
+  <div class="testimonalsC">
+    <div class="testi-card" style="position: relative; top: 250px">
+      <div class="t-header">
+        <div class="img1">
+          <img src="../../../assets/images/ic.png" alt="" />
+        </div>
+        <div class="img2">
+          <img src="../../../assets/images/ic2.png" alt="" />
+        </div>
+      </div>
+      <div class="t-body">
+        <h4>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </h4>
+      </div>
+      <div class="t-footer">sfskdb</div>
+    </div>
+
+    <div class="testi-card" style="position: relative; top: 250px">
+      <div class="t-header">
+        <div class="img1">
+          <img src="../../../assets/images/ic.png" alt="" />
+        </div>
+        <div class="img2">
+          <img src="../../../assets/images/ic2.png" alt="" />
+        </div>
+      </div>
+      <div class="t-body">
+        <h4>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </h4>
+      </div>
+      <div class="t-footer">sfskdb</div>
+    </div>
+
+    <div class="testi-card" style="position: relative; top: 250px">
+      <div class="t-header">
+        <div class="img1">
+          <img src="../../../assets/images/ic.png" alt="" />
+        </div>
+        <div class="img2">
+          <img src="../../../assets/images/ic2.png" alt="" />
+        </div>
+      </div>
+      <div class="t-body">
+        <h4>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </h4>
+      </div>
+      <div class="t-footer">sfskdb</div>
+    </div>
+  </div>
+</div>
+<div class="footDiv2"></div>

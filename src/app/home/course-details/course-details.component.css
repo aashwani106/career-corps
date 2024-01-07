@@ -1,0 +1,43 @@
+.guaranty {
+  border-radius: 44px;
+  border: 2px solid gray;
+  width: 335px;
+  text-align: center;
+  padding: 4px 4px;
+}
+
+#logo {
+  margin: 27px 0px 15px 0px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.course-title {
+  font-size: 37.077px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 5px 0px;
+}
+.cards{
+  justify-content: space-evenly;
+  border: 2px solid gray;
+  border-radius: 24px;
+  padding: 20px 10px;
+  margin: 30px 0px;
+}
+.card1{
+  display: flex;
+    flex-direction: row;
+    border-right: 2px solid black;
+    padding: 5px 41px;
+}
+.cont2{
+  padding: 20px 70px 80px 20px;
+}
+
+.myModal{
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, -5px -5px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  padding: 60px;
+}
