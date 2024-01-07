@@ -51,4 +51,14 @@ export class LoginPageComponent {
     }
 
   }
+
+  go_to_register(){
+    this.login_flag = false;
+    this.signup_flag = true;
+  }
+
+  go_to_login(){
+    this.login_flag = true;
+    this.signup_flag = false;
+  }
 }
