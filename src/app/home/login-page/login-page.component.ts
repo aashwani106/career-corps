@@ -11,8 +11,8 @@ import Swal from 'sweetalert2';
 export class LoginPageComponent {
 
   constructor(public modalRef: MdbModalRef<LoginPageComponent>, private authService: AuthServiceService) { }
-  login_flag: boolean = true
-  signup_flag: boolean = false
+  login_flag: boolean = false
+  signup_flag: boolean = true
   $isLogin: boolean = false
   auth_obj: any = {}
 
