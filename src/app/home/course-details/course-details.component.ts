@@ -55,4 +55,19 @@ export class CourseDetailsComponent {
   async getCourseData(courseId: any) {
     this.course = this.courseList.find((x: any) => x.id === courseId);
   }
+
+
+  async buy(){
+    const modal = document.getElementById('myDialog') as HTMLDialogElement;
+    modal.showModal();
+    this.isDialogOpen = true;
+  }
+
+
+  isDialogOpen: boolean = false;
+  closeDialog() {
+    const modal = document.getElementById('myDialog') as HTMLDialogElement;
+    modal.close();
+    this.isDialogOpen = false;
+  }
 }

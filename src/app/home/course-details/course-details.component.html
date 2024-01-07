@@ -190,9 +190,18 @@
     "
 
     class="text-white"
+    (click)="buy()"
   >
     Buy Now
   </button>
   </div>
 
 </div>
+ 
+ 
+<dialog id="myDialog">
+  <p>This is a thekalyugh.</p>
+  <button (click)="closeDialog()">Close</button>
+</dialog>
+
+<div class="backdrop" *ngIf="isDialogOpen"></div>
