@@ -13,10 +13,80 @@
 } */
 
 
-/* .HomeContainer {
-  background-image: url("../../../assets/images/Sign Up.png");
+
+
+
+.HomeContainer {
+  background-image: url("../../../assets/images/signup-bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 80vh;
   margin: 0;
-} */
+}
+
+input{
+  width: 352.561px;
+  height: 61.698px;
+  border-radius: 8.814px;
+  padding: 15px;
+  border: 0.881px solid #DDE2E5;
+  /* background: #FFF; */
+}
+
+label{
+  font-weight: 600;
+  color: black;
+  margin: 0px 0px 6px 13px;
+}
+
+button{
+  width: 352.561px;
+height: 61.698px;
+border-radius: 8.814px;
+background: linear-gradient(90deg, #FFB000 3.61%, #F4C55B 99.83%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.section{
+  margin-bottom:2rem
+}
+
+.section2{
+  margin-bottom: 7px;
+}
+
+.loginContainer{
+  margin: 6rem 4rem 4rem 4rem;
+}
+.signUpContainer{
+  margin: 0px 0px 0px 61px;
+}
+
+.sign-input{
+  height: 54.698px;
+}
+
+.sign-btn{
+  border: none;
+  margin-top: 10px;
+}
+
+.sign-text{
+  margin: 8px 0px 0px 53px;
+}
+
+.sign-text span{
+  color: #FFB000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login-text{
+  margin: 30px 0px 0px 35px;
+}
+
+.login-text span{
+  color: #FFB000;
+  text-decoration: underline;
+  cursor: pointer;
+}
