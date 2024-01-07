@@ -14,9 +14,9 @@
     <div class="midContainer text-white">
       <ul class="list-inline">
         <li class="list-inline-item cp">Career Programs</li>
-        <li class="list-inline-item navEl">About us</li>
-        <li class="list-inline-item navEl">Why us</li>
-        <li class="list-inline-item navEl">Contact us</li>
+        <li class="list-inline-item navEl" (click)="this.router.navigate(['/aboutUs'])">About us</li>
+        <li class="list-inline-item navEl"><a class="btn text-white" (click)="this.router.navigate(['/courses'])">Courses</a></li>
+        <li class="list-inline-item navEl" (click)="this.router.navigate(['/contactUs'])">Contact us</li>
         <li class="list-inline-item navEl">Dashboard</li>
 
         <hr class="line" />
@@ -48,12 +48,14 @@
     </div>
 
     <div class="buttons" style="margin: 32px 233px 5px 229px">
-      <button type="button" class="btn custom-btn2 rounded-pill">
+      <button type="button" class="btn custom-btn2 rounded-pill"
+      (click)="register()">
         Get Started
       </button>
       <button
         type="button"
         class="btn custom-btn3 btn-outline-warning rounded-pill"
+        (click)="this.router.navigate(['/courses'])"
       >
         Explore More
       </button>
